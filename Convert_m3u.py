@@ -51,11 +51,12 @@ entry_dir = tk.Entry(root, width=50)
 entry_dir.grid(row=0, column=1)
 tk.Button(root, text="Browse", command=select_directory).grid(row=0, column=2)
 
+#Hint \
 tk.Label(root, text="Old Path:").grid(row=1, column=0)
 entry_old_path = tk.Entry(root, width=50)
 entry_old_path.grid(row=1, column=1)
 
-#Hint /storage/6234-3335/Music/
+#Hint /storage/6234-3335/Music/ for my new phone it's \Music\
 tk.Label(root, text="New Path:").grid(row=2, column=0)
 entry_new_path = tk.Entry(root, width=50)
 entry_new_path.grid(row=2, column=1)
